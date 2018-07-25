@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+ * @description: Manejo de border radius.
+ * @file: _border-radius.scss
+ */
+/**
+ * @description: Border radius top.
+ * @mixing: border-top-radius
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Border radius righ top.
+ * @mixing: border-right-radius
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Border radius bottom.
+ * @mixing: border-bottom-radius
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Border radius left.
+ * @mixing: border-left-radius
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Border radius all.
+ * @mixing: border-radius
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Border radius custom.
+ * @mixing: border-radius-map
+ * @param {radius} num, total de radius
+ */
+/**
+ * @description: Limpia cajas.
+ * @file: _clear-both.scss
+ */
+/**
+ * @description: Limpia cajas.
+ * @mixing: clear-both
+ */
+/**
+ * @description: Definicion de atributos de fuentes.
+ * @file: _font.scss
+ */
+/**
+ * @description: Definicion shorthand font con rem.
+ * @mixing: font
+ * @param {font-style}   string.
+ * @param {font-variant} string.
+ * @param {font-weight}  string.
+ * @param {font-weight}  string.
+ * @param {font-size}    number.
+ * @param {line-height}  number.
+ * @param {font-family}  string.
+ */
+/**
+ * @description: Tamaño de fuente.
+ * @mixing: font-size
+ * @param {size-value} number
+ */
+/**
+ * @description: Tamaño de fuente.
+ * @mixing: line-height
+ * @param {line-height} number
+ */
+/**
+ * @description: Overflow text.
+ * @mixing: text-overflow
+ */
+/**
+ * @description: Degradados.
+ * @file: _gradients.scss
+ */
+/**
+ * @description: Definicion shorthand font con rem.
+ * @mixing: font
+ * @param {font-style}   string.
+ * @param {font-variant} string.
+ * @param {font-weight}  string.
+ * @param {font-weight}  string.
+ * @param {font-size}    number.
+ * @param {line-height}  number.
+ * @param {font-family}  string.
+ */
+/**
+ * @description: Keyframes.
+ * @file: _keyframes.scss
+ */
+/**
+ * @description: Keyframes content.
+ * @file: keyframes
+ * @example:
+ 	 @include keyframes(fadeIn) {
+			from {
+				opacity: 0%;
+			}
+			to {
+				opacity: 100%;
+			}
+		}
+ */
+/**
+ * @description: Margenes.
+ * @file: _margin.scss
+ */
+/**
+ * @description: Margin all.
+ * @mixing: margin
+ * @param {top} number
+ * @param {right} number
+ * @param {bottom} number
+ * @param {left} number
+ */
+/**
+ * @description: Margin top.
+ * @mixing: margin-top
+ * @param {top} number
+ */
+/**
+ * @description: Margin right.
+ * @mixing: margin-right
+ * @param {right} number
+ */
+/**
+ * @description: Margin bottom.
+ * @mixing: margin-bottom
+ * @param {bottom} number
+ */
+/**
+ * @description: Margin left.
+ * @mixing: margin-left
+ * @param {left} number
+ */
+/**
+ * @description: Opacidad.
+ * @file: _opacity.scss
+ */
+/**
+ * @description: opacity
+ * @mixing: opacity
+ * @param {opacity} number
+ */
+/**
+ * @description: Tamaños.
+ * @file: _size.scss
+ */
+/**
+ * @description: Ancho y alto
+ * @mixing: size
+ * @param {width} number
+ * @param {width} height
+ */
+/**
+ * @description: Cuadrado
+ * @mixing: square
+ * @param {size} number
+ */

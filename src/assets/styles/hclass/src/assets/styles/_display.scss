@@ -1,0 +1,28 @@
+/**
+ * @description: En este archivo se definiran los tipos de vistas.
+ * @file: _display.scss
+ */
+
+.d_table {
+	display: table!important;
+}
+
+.d_t-row {
+	display: table-row!important;
+}
+
+.d_t-cell {
+	display: table-cell!important;
+}
+
+.d_none {
+	display: none!important;
+}
+
+.d_hidden {
+	display: hidden!important;
+}
+
+.d_i-block {
+	display: inline-block!important;
+}

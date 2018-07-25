@@ -1,0 +1,25 @@
+/**
+ * @description: Tamaños.
+ * @file: _size.scss
+ */
+
+
+/**
+ * @description: Ancho y alto
+ * @mixing: size
+ * @param {width} number
+ * @param {width} height
+ */
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+/**
+ * @description: Cuadrado
+ * @mixing: square
+ * @param {size} number
+ */
+@mixin square($size) {
+  @include size($size, $size);
+}

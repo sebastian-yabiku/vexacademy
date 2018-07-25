@@ -1,0 +1,15 @@
+{
+  "name": "mixings",
+  "description": "Mixings in sass",
+  "main": "index.js",
+  "authors": [
+    "sebastian yabiku"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mixing",
+    "sass",
+    "function"
+  ],
+  "homepage": "https://github.com/sebastian-yabiku/mixings"
+}

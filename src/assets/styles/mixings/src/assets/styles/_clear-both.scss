@@ -1,0 +1,22 @@
+/**
+ * @description: Limpia cajas.
+ * @file: _clear-both.scss
+ */
+
+
+/**
+ * @description: Limpia cajas.
+ * @mixing: clear-both
+ */
+@mixin clear-both() {
+
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

@@ -1,0 +1,59 @@
+<header class="org_Header lay-container">
+  <button class="Header__btn-left" mat-mini-fab color="primary">
+    <mat-icon aria-label="menu">menu</mat-icon>
+  </button>
+  <div class="t-a_center">
+    <a class="Header__logo" routerLink="">
+      <strong>VEXACADEMY</strong>
+    </a>
+  </div>
+  <ul class="Header__menu l_inline t-a_center">
+    <li>
+      <a routerLinkActive="is-active" routerLink="/carreras">
+        Carreras
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="is-active" routerLink="/cursos">
+        Cursos
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="is-active" routerLink="/eventos">
+        Eventos
+      </a>
+    </li>
+    <li>
+      <a href="/blog">
+        Blog
+      </a>
+    </li>
+    <li>
+      <a routerLinkActive="is-active" routerLink="/nosotros">
+        Nosotros
+      </a>
+      </li>
+  </ul>
+  <div class="brandui-org_Popover">
+    <button class="brandui__Btn Header__btn-right" mat-mini-fab color="primary">
+      <mat-icon aria-label="menu">person outline</mat-icon>
+    </button>
+    <div class="Popover Popover--topRight d_none">
+      <div class="Popover__header">
+        Login
+      </div>
+      <div class="Popover__body">
+        <mat-form-field>
+          <input matInput placeholder="Usuario">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Contrasenia">
+        </mat-form-field>
+        <button class="m-t_10" mat-raised-button color="primary">Enviar</button>
+      </div>
+      <div class="Popover__footer d_none">
+
+      </div>
+    </div>
+  </div>
+</header>

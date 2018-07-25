@@ -1,0 +1,42 @@
+.view_Home {
+  .Home__section {
+    position: relative;
+    z-index: 2;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    &.Home__section--intro {
+      margin: 50px 0;
+
+      h2 {
+        margin: 0 0 50px;
+        padding: 0 0 0 30px;
+        border-left: 10px solid #fff;
+        line-height: 80px;
+        font-size: 62px;
+        text-transform: uppercase;
+
+        span {
+          display: block;
+        }
+
+        &.last {
+          font-size: 26px;
+          line-height: 40px;
+          text-transform: initial;
+        }
+      }
+    }
+  }
+
+  .Home__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}

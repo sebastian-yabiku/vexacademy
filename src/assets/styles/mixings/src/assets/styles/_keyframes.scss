@@ -1,0 +1,32 @@
+/**
+ * @description: Keyframes.
+ * @file: _keyframes.scss
+ */
+
+
+/**
+ * @description: Keyframes content.
+ * @file: keyframes
+ * @example:
+ 	 @include keyframes(fadeIn) {
+			from {
+				opacity: 0%;
+			}
+			to {
+				opacity: 100%;
+			}
+		}
+ */
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}

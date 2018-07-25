@@ -1,0 +1,12 @@
+/**
+ * @description: En este archivo se definiran las variables
+ * @file: _variables.scss
+ */
+
+//global
+$gb-unit: map-sub-map($settings, 'global', 'unit');
+//viewports
+$hc-vp-lg: map-sub-map($settings, 'viewports', 'large');
+$hc-vp-md: map-sub-map($settings, 'viewports', 'medium');
+$hc-vp-sm: map-sub-map($settings, 'viewports', 'small');
+$hc-vp-xs: map-sub-map($settings, 'viewports', 'xsmall');

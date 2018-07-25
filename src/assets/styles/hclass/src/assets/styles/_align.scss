@@ -1,0 +1,36 @@
+/**
+ * @description: En este archivo se definiran las orientaciones de texto.
+ * @file: _align.scss
+ */
+
+.t-a_left {
+	text-align: left;
+}
+
+.t-a_right {
+	text-align: right;
+}
+
+.t-a_center{
+	text-align: center;
+}
+
+.t-a_justify {
+	text-align: justify;
+}
+
+.v-a_top{
+	vertical-align: top;
+}
+
+.v-a_bottom{
+	vertical-align: bottom;
+}
+
+.v-a_middle{
+	vertical-align: middle;
+
+	li {
+		vertical-align: middle;
+	}
+}

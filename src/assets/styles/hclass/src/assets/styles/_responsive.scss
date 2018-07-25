@@ -1,0 +1,78 @@
+/**
+ * @description: En este archivo se definiran clases para responsive
+ * @file: _responsive.scss
+ */
+
+//1200
+@media screen and (min-width: $hc-vp-lg#{$gb-unit}){
+
+}
+
+//1024
+@media screen and (max-width: $hc-vp-md#{$gb-unit}){
+	.d_none--md{
+		display: none;
+	}
+
+	.d_block--md{
+		display: block;
+	}
+
+	.d_i-block--md{
+		display: inline-block;
+	}
+
+	.f_left--md{
+		float: left;
+	}
+
+	.f_right--md{
+		float: right;
+	}
+}
+
+//800
+@media screen and (max-width: $hc-vp-sm#{$gb-unit}){
+	.d_none--sm{
+		display: none;
+	}
+
+	.d_block--sm{
+		display: block;
+	}
+
+	.d_i-block--sm{
+		display: inline-block;
+	}
+
+	.f_left--sm{
+		float: left;
+	}
+
+	.f_right--sm{
+		float: right;
+	}
+}
+
+//400
+@media screen and (max-width: $hc-vp-xs#{$gb-unit}){
+	.d_none--xs{
+		display: none;
+	}
+
+	.d_block--xs{
+		display: block;
+	}
+
+	.d_i-block--xs{
+		display: inline-block;
+	}
+
+	.f_left--xs{
+		float: left;
+	}
+
+	.f-right-xs{
+		float: right;
+	}
+}

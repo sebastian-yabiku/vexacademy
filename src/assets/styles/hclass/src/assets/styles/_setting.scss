@@ -1,0 +1,25 @@
+/**
+ * @description: En este archivo se definiran los objetos y funciones
+ * @file: _setting.scss
+ */
+
+$settings: (
+	global: (
+		unit : "px"
+	),
+  viewports:(
+  	xsmall: 426, //xs
+  	small: 800,//sm
+  	medium: 1024,//md
+    large: 1200//lg
+  )
+);
+
+/* Function
+---------------------------------------------------------------*/
+@function map-sub-map($map, $keys, $subkey){
+  $submap:map-get(map-get($map, $keys), $subkey);
+  @return $submap;
+}
+
+

@@ -1,0 +1,135 @@
+.org_Header {
+  position: relative;
+  padding: 20px;
+  z-index: 10;
+
+  .Header__logo {
+    display: inline-block;
+    margin: 0 0 20px;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  .Header__menu {
+    font-size: 15px;
+
+    li {
+      margin: 0 15px;
+    }
+
+    a {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        left: 50%;
+        bottom: -10px;
+        height: 5px;
+        background: #f7f7f7;
+        -webkit-transition: .3s;
+        transition: .3s;
+      }
+
+      &.is-active,
+      &:hover{
+        &:after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .Header__btn-left,
+  .brandui-org_Popover {
+    position: absolute;
+    top: 25px;
+  }
+
+  .Header__btn-left {
+    left: 0;
+  }
+
+  .brandui-org_Popover {
+    right: 0;
+  }
+}
+
+
+.brandui-org_Popover {
+  position: relative;
+  display: inline-block;
+
+  .mat-raised-button {
+    color:#fff!important;
+  }
+
+  .brandui__Btn {
+    margin: 0 0 20px;
+    float: right;
+    clear: both;
+  }
+
+  .Popover {
+    position: relative;
+    max-width: 200px;
+    width: 100%;
+    border:1px solid #000;
+    border-radius: 4px;
+    background: #fff;
+    clear: both;
+
+    &:after {
+      content: '';
+      position: absolute;
+    }
+
+    &.Popover--topRight {
+      &:after {
+        top: -10px;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid white;
+      }
+    }
+  }
+
+  .Popover__header,
+  .Popover__footer {
+    padding: 15px 10px;
+  }
+
+  .Popover__header {
+    border-bottom: 1px solid #000;
+    color: #000!important;
+  }
+
+  .Popover__body {
+    padding: 15px 10px;
+
+    .mat-input-container {
+      width: 100%;
+
+      * {
+        width: 100%;
+      }
+    }
+  }
+
+  .Popover__footer {
+    border-top: 1px solid #000;
+  }
+}
+
+.m-t_10 {
+  margin-top: 10px;
+}
+
+.m-t_20 {
+  margin-top: 20px;
+}

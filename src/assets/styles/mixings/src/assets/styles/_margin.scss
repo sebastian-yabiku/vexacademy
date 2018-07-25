@@ -1,0 +1,58 @@
+/**
+ * @description: Margenes.
+ * @file: _margin.scss
+ */
+
+
+/**
+ * @description: Margin all.
+ * @mixing: margin
+ * @param {top} number
+ * @param {right} number
+ * @param {bottom} number
+ * @param {left} number
+ */
+@mixin margin($top:0, $right:0, $bottom:0, $left:0) {
+	margin:($top*10)+px ($right*10)+px ($bottom*10)+px ($left*10)+px;
+  margin:$top+rem $right+rem $bottom+rem $left+rem;
+}
+
+/**
+ * @description: Margin top.
+ * @mixing: margin-top
+ * @param {top} number
+ */
+@mixin margin-top($top:0) {
+	margin-top: ($top*10)+px;
+  margin-top: $top+rem;
+}
+
+/**
+ * @description: Margin right.
+ * @mixing: margin-right
+ * @param {right} number
+ */
+@mixin margin-right($right:0) {
+	margin-right: ($right*10)+px;
+  margin-right: $right+rem;
+}
+
+/**
+ * @description: Margin bottom.
+ * @mixing: margin-bottom
+ * @param {bottom} number
+ */
+@mixin margin-bottomk($right:0) {
+	margin-right: ($right*10)+px;
+  margin-right: $right+rem;
+}
+
+/**
+ * @description: Margin left.
+ * @mixing: margin-left
+ * @param {left} number
+ */
+@mixin margin-left($left:0) {
+	margin-left: ($left*10)+px;
+  margin-left: $left+rem;
+}
